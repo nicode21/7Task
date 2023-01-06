@@ -1,0 +1,173 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(168, 168, 168);
+}
+
+p {
+  margin: 0;
+
+}
+
+.all-body {
+  display: grid;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+  font-family: 'Sonsie One';
+  font-size: 30px;
+  color: white;
+  text-shadow: 0px 0px 5px black;
+}
+
+.navbar-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navbar {
+  background-color: rgb(249, 127, 249);
+  width: 860px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+
+.home,
+.our-team,
+.projects,
+.contact {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+}
+
+.home {
+  margin-left: 50px;
+}
+
+.our-team,
+.projects,
+.contact {
+  margin-left: 80px;
+}
+
+.search {
+  margin-left: 60px;
+  height: 25px;
+}
+
+.go {
+  width: 65px;
+  height: 24px;
+  background-color: rgb(51, 49, 49);
+  color: white;
+  border: none;
+  margin-left: 5px;
+  font-size: 10px;
+  vertical-align: top;
+}
+
+.body {
+  display: flex;
+}
+
+.left {
+  margin-top: 10px;
+  width: 670px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  padding-top: 15px;
+  background-color: white;
+}
+
+.title-left {
+  font-family: 'Sonsie One';
+  text-align: center;
+  font-size: 28px;
+  font-weight: 900;
+}
+
+.first-paragraph {
+  margin-top: 20px;
+}
+
+.second-title {
+  font-family: 'Sonsie One';
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.second-paragraph-part1 {
+  margin-top: 20px;
+}
+
+.second-paragraph-part2 {
+  margin-top: 15px;
+}
+
+#content {
+  line-height: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 13px;
+}
+
+.third-title {
+  font-family: 'Sonsie One';
+  font-weight: 900;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.third-paragraph-part1 {
+  margin-top: 20px;
+}
+
+.third-paragraph-part2 {
+  margin-top: 15px;
+}
+
+.right {
+  background-color: rgb(249, 127, 249);
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 180px;
+}
+
+.right-title {
+  text-align: center;
+  font-family: 'Sonsie One';
+  font-size: 25px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.right li {
+  margin-top: 10px;
+  font-size: 10px;
+  margin-right: 8px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer {
+  margin-top: 10px;
+  height: 60px;
+  width: 860px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+
+}
+
+.footer p {
+  margin-left: 10px;
+}

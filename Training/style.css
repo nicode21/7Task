@@ -1,0 +1,40 @@
+/* .area{
+  display: flex;
+  justify-content: space-between;
+}
+
+#test .test1{
+  color: red;
+}
+
+#test .test3{
+  color: hotpink;
+} */
+
+/* .test3.test1{
+  color: hotpink;
+} */
+/* 
+.heading .text{
+  color: blue;
+}
+
+#test{
+  background-color: aqua;
+} */
+
+/* p.test4{
+  color: yellow;
+} */
+
+/* h4,p{
+  color: green;
+} */
+
+/* div > h4{
+  color: red;
+} */
+
+/* div + h4{
+  color: red;
+} */

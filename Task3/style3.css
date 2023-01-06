@@ -1,0 +1,60 @@
+* {
+  margin: 0%;
+}
+
+.all-body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.top-part {
+  background-color: rgb(139, 69, 31);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 650px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(211, 162, 97);
+  padding-top: 10px;
+}
+
+.navbar p {
+  margin-left: 15px;
+  color: green;
+}
+
+
+.content {
+  background-color: rgb(211, 162, 97);
+  padding-top: 15px;
+  height: 180px;
+
+}
+
+.content h1 {
+  font-size: 22px;
+
+
+}
+
+.content :nth-child(2) {
+  color: rgb(139, 69, 31);
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.content :nth-child(3) {
+  color: rgb(139, 69, 31);
+  margin-bottom: 10px;
+}
+
+.different {
+  color: black;
+}
